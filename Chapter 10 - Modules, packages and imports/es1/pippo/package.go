@@ -5,5 +5,6 @@ package pippo
 import "fmt"
 
 func Pippo() {
-	fmt.Print("ciao")
+	// riesco a vedere a anche se in un altro file e non esportato, dato che sono nello stesso package
+	fmt.Println(a)
 }

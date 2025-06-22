@@ -1,6 +1,7 @@
 package main
 
 import (
+	// devo importare esplicitamente il package pippo anche se sono nello stesso modulo
 	"es1/pippo"
 	"fmt"
 
